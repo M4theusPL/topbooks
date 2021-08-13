@@ -1,0 +1,58 @@
+.headBookEdit{
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    background-color: #F5F5F6;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bookInformation{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.bookTxt{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.bookInput input{
+    width: 226px;
+    height: 28px;
+    border-radius: 5px;
+
+}
+
+.buttonsBookEdit{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buttonDeleteBook{
+    line-height: 32px;
+    width: 146px;
+    border-radius: 5px;
+    background-color: #FF0101;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.buttonUpdateDataBook{
+    line-height: 32px;
+    width: 175px;
+    border-radius: 5px;
+    background-color: #81D4FA;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+.headMobileSearch{
+    display: none;
+}
+
+@media (max-width: 400px){
+    .headMobileSearch{
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+    }
+
+    .searchMobile{
+        line-height: 110px;
+    }
+
+    .searchMobile input{
+        border: 0;
+        width: 260px;
+        height: 52px;
+        margin: auto 0 auto auto;
+        border-radius: 5px 0px 0px 5px;
+        padding-left: 10px;
+    }
+
+    .searchMobile input:focus{
+        outline: none;
+    }
+
+    .searchMobile button{
+        border: 0;
+        width: 53px;
+        height: 54px;
+        background: #5BA864;
+        border-color: #5BA864;
+        border-radius: 0px 5px 5px 0px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .searchMobile button img{
+        vertical-align: middle;
+    }
+}

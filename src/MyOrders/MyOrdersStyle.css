@@ -1,0 +1,80 @@
+.MyOrders{
+    width: 90%;
+    margin: auto;
+}
+
+.MyOrdersHeadTxt{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.bookOrders{
+    background-color: #F5F5F6;
+    width: 402px;
+    height: 226px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.bookOrders img{
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+.bookOrderInside{
+    display: flex;
+}
+
+.editBook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    width: 88px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    border-radius: 5px;
+    background-color: #81D4FA;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .MyOrdersHeadTxt{
+        margin-top: 15px;
+    }
+
+    .MyOrders{
+        margin-bottom: 15px;
+    }
+
+    .MyOrders .listBooks{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .bookOrders{
+        width: 100%;
+        height: 175px;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+
+    .bookOrderInside{
+        display: flex;
+
+    }
+
+    .bookOrders img{
+        height: 100px;
+        width: 100px;
+    }
+}

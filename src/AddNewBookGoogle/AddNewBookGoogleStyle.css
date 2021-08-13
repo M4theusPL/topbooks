@@ -1,0 +1,40 @@
+.AddNewBookGoogle table{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 40%;
+    background-color: #000;
+}
+
+.AddNewBookGoogle tr{
+    background-color: #FFF;
+}
+
+.AddNewBookGoogle th{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.AddNewBookGoogle td{
+    font-size: 24px;
+}
+
+.buttonsAddNewBookGoogle{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.buttonAddNewBookGoogle{
+    width: 232px;
+    line-height: 35px;
+    border-radius: 5px;
+    background-color: #5BA864;
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}

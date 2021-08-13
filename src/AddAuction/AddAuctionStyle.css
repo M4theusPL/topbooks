@@ -1,0 +1,229 @@
+.headBookAdd{
+    width: 80%;
+    background-color: #F5F5F6;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.imageAndInformationBookAdd{
+    display: flex;
+    padding: 25px;
+}
+
+.imageBookAdd{
+    padding-top: 54px;
+}
+
+.txtInformationBookAdd{
+    padding-left: 25px;
+}
+
+.informationAuction{
+    font-size: 18px;
+}
+
+.searchAddBook{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.searchAddBook input{
+    border: 0;
+    width: 344px;
+    height: 38px;
+    margin: auto 0 auto auto;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+.searchAddBook input:focus{
+    outline: none;
+}
+
+.searchAddBook button{
+    border: 0;
+    width: 106px;
+    height: 40px;
+    margin: auto auto auto 0;
+    background: #5BA864;
+    border-color: #5BA864;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.searchAddBook button img{
+    vertical-align: middle;
+}
+
+.txtLackBook{
+    display: flex;
+    font-size: 14px;
+    line-height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.buttonLackBook{
+    background-color: #81D4FA;
+    line-height: 35px;
+    width: 203px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.auctionAddData{
+    font-size: 18px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.auctionAddData input{
+    border-radius: 5px;
+    width: 226px;
+    height: 28px;
+}
+
+.auctionAddTxt{
+    line-height: 35px;
+    width: 95px;
+}
+
+.selectImageAuction{
+    line-height: 32px;
+    width: 175px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #81D4FA;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.auctionAddDataLocation{
+    font-size: 18px;
+    display: flex;
+}
+
+.auctionAddDataLocation input{
+    border-radius: 5px;
+    width: 226px;
+    height: 28px;
+}
+
+.auctionAddTxtLocation{
+    line-height: 35px;
+    width: 135px;
+}
+
+.mapAddAuctionLocation{
+    padding-top: 15px;
+}
+
+.buttonAddNewAuction{
+    margin: auto;
+    margin-top: 65px;
+    text-align: center;
+    line-height: 35px;
+    width: 232px;
+    color: #FFF;
+    background-color: #5BA864;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+@media (max-width: 400px){
+    .headBookAdd{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .imageAndInformationBookAdd{
+        display: block;
+        padding: 0;
+    }
+
+    .imageBookAdd{
+        padding-top: 0;
+    }
+
+    .imageBookAdd img{
+        height: 125px;
+        width: 125px;
+    }
+
+    .txtInformationBookAdd{
+        padding-left: 0;
+    }
+
+    .headBookAdd{
+        line-height: 50px;
+    }
+
+    .headBookAdd input{
+        border: 0;
+        width: 230px;
+        height: 52px;
+        border-radius: 5px 0px 0px 5px;
+        padding-left: 10px;
+    }
+
+    .headBookAdd input:focus{
+        outline: none;
+    }
+
+    .headBookAdd button{
+        border: 0;
+        width: 53px;
+        height: 54px;
+        background: #5BA864;
+        border-color: #5BA864;
+        border-radius: 0px 5px 5px 0px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .headBookAdd button img{
+        vertical-align: middle;
+    }
+
+    .txtLackBook{
+        display: block;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buttonLackBook{
+        margin: auto;
+    }
+
+    .auctionAddData{
+        font-size: 18px;
+        display: block;
+    }
+
+    .auctionAddData input{
+        width: 95%;
+        height: 52px;
+    }
+
+    .auctionAddDataLocation{
+        font-size: 18px;
+        display: block;
+    }
+
+    .auctionAddDataLocation input{
+        width: 95%;
+        height: 52px;
+    }
+}

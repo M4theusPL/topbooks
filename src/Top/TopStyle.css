@@ -1,0 +1,277 @@
+.headTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    background-color: #4BA3C7;
+}
+
+#menu{
+    display: none;
+}
+
+#listMenu{
+    display: none;
+}
+
+#mobileClose{
+    display: none;
+}
+
+.logo{
+    color: #FFFFFF;
+    font-size: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 59px;
+    margin-left: 50px;
+}
+
+.search{
+    line-height: 110px;
+}
+
+.search input{
+    border: 0;
+    width: 344px;
+    height: 38px;
+    margin: auto 0 auto auto;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    border: 0;
+    width: 106px;
+    height: 40px;
+    margin: auto auto auto 0;
+    background: #5BA864;
+    border-color: #5BA864;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.search button img{
+    vertical-align: middle;
+}
+
+.userAvatarNoLogged{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 50px;
+}
+
+#useractiveUserNoLogged{
+    display: none;
+}
+
+#userframeUserNoLogged{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+#userframeactiveUserNoLogged{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f6ae44;
+}
+
+#userNoLogged img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+}
+
+#useractiveUserNoLogged img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 4;
+}
+
+#panelLogin{
+    position: absolute;
+    margin-top: 210px;
+    right: 50px;
+    width: 420px;
+    height: 163px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: none;
+}
+
+.login{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login input{
+    width: 285px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.password{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.password input{
+    width: 285px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.panelLoginButtons{
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-flex;
+}
+
+.buttonLogin{
+    color: #FFFFFF;
+    background-color: #5BA864;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 28px;
+    text-align: center;
+}
+
+.panelLoginButtons .aaaa{
+    background-color: #81D4FA;
+    width: 179px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media (max-width: 400px) {
+    .headTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #menu{
+        display: block;
+        padding-left: 15px;
+    }
+
+    #listMenu{
+        position: absolute;
+        height: 80%;
+        width: 80%;
+        background-color: #FFF;
+        z-index: 6;
+        top: 110px;
+        left: 0;
+        border-radius: 5px 5px 0 0;
+        padding: 20px;
+    }
+
+    #mobileClose{
+        padding-left: 24px;
+        color: #FFF;
+    }
+
+    .mobileMenuButton{
+        margin: auto;
+        margin-top: 10px;
+        width: 95%;
+        line-height: 40px;
+        border-radius: 5px;
+        background-color: #FFF;
+        font-weight: 500;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .logo{
+        margin: auto;
+        text-align: center;
+    }
+
+    .userAvatarNoLogged{
+        margin-right: 15px;
+    }
+
+    #panelLogin{
+        right: 0;
+        width: 100%;
+        height: 180px;
+        margin-top: 230px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        display: none;
+    }
+
+    .login{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .login input{
+        width: 260px;
+        height: 31px;
+    }
+
+    .password{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .password input{
+        width: 260px;
+        height: 31px;
+    }
+
+    .buttonLogin{
+        width: 131px;
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .panelLoginButtons .aaaa{
+        width: 170px;
+        height: 38px;
+        line-height: 38px;
+    }
+}

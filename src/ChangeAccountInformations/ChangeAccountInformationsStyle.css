@@ -1,0 +1,87 @@
+.frameChangeAccountInformations{
+    width: 80%;
+    padding: 30px;
+    background-color: #F5F5F6;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.frameChangeAccountInformations input{
+    border-radius: 5px;
+    width: 226px;
+    height: 28px;
+}
+
+#informationChangeAccountInfromations{
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #E1E2E1;
+    text-align: center;
+    margin: auto;
+    z-index: 2;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.ok{
+    background-color: #81D4FA;
+    width: 50px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.informationPersonalChange{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.userAvatar{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+}
+
+.selectImage{
+    line-height: 32px;
+    background-color: #81D4FA;
+    font-size: 16px;
+    font-weight: 500;
+    width: 175px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.frameChangeAccountInformations .buttonRegister{
+    background-color: #81D4FA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    height: 32px;
+    width: 175px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .frameChangeAccountInformations{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,55 @@
+.personalDataAdmin{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.personalDataAdmin .left{
+    width: 159px;
+    text-align: left;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.personalDataAdmin input{
+    width: 226px;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.ChangeUserInformationAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ChangeUserInformationAdmin{
+    margin-top: 20px;
+}
+
+.buttonDeleteAccountUser{
+    width: 127px;
+    line-height: 32px;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #FF0101;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttonUpdateAccountUser{
+    width: 175px;
+    line-height: 32px;
+    border-radius: 5px;
+    background-color: #81D4FA;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+
+.ChangeUserInformationAdmin .buttonBack{
+    margin-top: 0;
+}

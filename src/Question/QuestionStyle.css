@@ -1,0 +1,27 @@
+.Question table{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+}
+
+.Question tr{
+    background-color: #FFF;
+
+}
+
+.Question th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Question td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quest{
+    margin: auto;
+    width: 35%;
+}

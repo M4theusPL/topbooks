@@ -1,0 +1,261 @@
+.headTopLogged{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+    background-color: #4BA3C7;
+}
+
+.logoLogged{
+    color: #FFFFFF;
+    font-size: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 59px;
+    margin-left: 50px;
+}
+
+.searchLogged{
+    line-height: 110px;
+}
+
+.searchLogged input{
+    border: 0;
+    width: 344px;
+    height: 38px;
+    margin: auto 0 auto auto;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+
+.searchLogged input:focus{
+    outline: none;
+}
+
+.searchLogged button{
+    border: 0;
+    width: 106px;
+    height: 40px;
+    margin: auto auto auto 0;
+    background: #5BA864;
+    border-color: #5BA864;
+    border-radius: 0px 5px 5px 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.searchLogged button img{
+    vertical-align: middle;
+}
+
+.userLog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 110px;
+}
+
+.helloUserLog{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.userAvatarLogged{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#useractiveUserLogged{
+    display: none;
+}
+
+#userframeUserLogged{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+#userframeactiveUserLogged{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f6ae44;
+}
+
+#userLogged img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+}
+
+#useractiveUserLogged img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 4;
+}
+
+#panelLoginUserLogged{
+    position: absolute;
+    margin-top: 205px;
+    right: 50px;
+    width: 282px;
+    height: 156px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.panelLoginHelloAndLogout{
+    display: none;
+}
+
+.logoutUserMobile{
+    display: none;
+}
+
+.panelButton1{
+    background-color: #81D4FA;
+    width: 242px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.panelButton2{
+    background-color: #81D4FA;
+    width: 242px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.panelButtonsRed{
+    background-color: #F44336;
+    color: #FFF;
+    width: 242px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.logoutUser{
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+@media (max-width: 400px) {
+    .headTopLogged{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .searchLogged{
+        display: none;
+    }
+
+    .logoLogged{
+        margin: auto;
+        text-align: center;
+    }
+
+    #panelLoginUserLogged{
+        position: absolute;
+        margin-top: 240px;
+        right: 18px;
+        width: 80%;
+        height: 190px;
+    }
+
+    .userLog{
+        line-height: 0;
+    }
+
+    .userAvatarLogged{
+        padding: 0;
+        margin-right: 15px;
+    }
+
+    .helloUserLog{
+        display: none;
+    }
+
+    .logoutUser{
+        display: none;
+    }
+
+    .panelLoginHelloAndLogout{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+    }
+
+    .helloUserLogMobile{
+        padding-left: 25px;
+    }
+
+    .logoutUserMobile{
+        display: block;
+        padding-right: 25px;
+    }
+
+    .login{
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .login input{
+        width: 260px;
+        height: 31px;
+    }
+
+    .password{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .password input{
+        width: 260px;
+        height: 31px;
+    }
+
+    .buttonLogin{
+        width: 131px;
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .panelLoginButtons .aaaa{
+        width: 170px;
+        height: 38px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,36 @@
+.QuestionSearch table{
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+}
+
+.QuestionSearch tr{
+    background-color: #FFF;
+
+}
+
+.QuestionSearch th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.QuestionSearch td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.buttonBack{
+    margin-top: 25px;
+}
+
+.buttonsQuestionSearch{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.QuestionSearch .buttonBack{
+    margin-top: 0;
+}

@@ -1,0 +1,35 @@
+.frameRegisterDone{
+    width: 60%;
+    height: 121px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #FFF;
+}
+
+.txtRegisterDone{
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+
+.buttonRegisterDone{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    height: 32px;
+    width: 232px;
+    border-radius: 5px;
+    background-color: #81D4FA;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+@media (max-width: 400px){
+    .frameRegisterDone{
+        width: 90%;
+        height: 165px;
+        margin-top: 30px;
+    }
+}

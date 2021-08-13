@@ -1,0 +1,33 @@
+.buttonsEditAuctionAdmin{
+    margin-top: 65px;
+}
+
+.buttonsEditAuctionAdminCeneter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -36px;
+}
+
+.buttonDeleteAuctionAdmin{
+    width: 148px;
+    line-height: 35px;
+    color: #FFF;
+    background-color: #FF0101;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.buttonEditAuctionAdmin{
+    width: 164px;
+    line-height: 35px;
+    color: #FFF;
+    background-color: #5BA864;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+}

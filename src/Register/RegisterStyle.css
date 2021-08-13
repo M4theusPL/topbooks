@@ -1,0 +1,120 @@
+.frameRegister{
+    width: 80%;
+    height: 458px;
+    background-color: #F5F5F6;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.frameRegister input{
+    border-radius: 5px;
+    width: 226px;
+    height: 28px;
+}
+
+.informationPersonal{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.personalData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.informationAccount{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.accountData{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.regulations{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.regulations img{
+    padding-right: 10px;
+}
+
+.frameRegister .buttonRegister{
+    background-color: #81D4FA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    height: 32px;
+    width: 175px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.left{
+    width: 14%;
+    text-align: right;
+}
+
+.right{
+    width: 17%;
+}
+
+@media (max-width: 400px) {
+    .frameRegister{
+        height: 550px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
+    .frameRegister input{
+        width: 250px;
+    }
+
+    .informationPersonal{
+        padding-top: 15px;
+    }
+
+    .frameRegister{
+        padding: 15px;
+    }
+
+    .personalData{
+        display: block;
+    }
+
+    .left{
+        width: 100%;
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .accountData{
+        display: block;
+    }
+
+}

@@ -1,0 +1,39 @@
+.CollectionOrders{
+    width: 90%;
+    margin: auto;
+}
+
+.confirmOrder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 233px;
+    line-height: 32px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #81D4FA;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.CollectionOrders #informationChangeAccountInfromations{
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 400px) {
+    .MyOrdersHeadTxt{
+        margin-top: 15px;
+    }
+
+    .CollectionOrders{
+        margin-bottom: 15px;
+    }
+
+    .CollectionOrders .listBooks{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+}
